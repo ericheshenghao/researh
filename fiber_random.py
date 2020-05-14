@@ -10,8 +10,11 @@ import regionToolset
 import numpy as np
 import random 
 
-lf=10
-number=2000
+lf=20
+# 0.5% 1266
+# 0.25% 633
+number=633
+
 Nx=400
 Ny=100
 i=1
@@ -47,11 +50,18 @@ while i <number:
         y0=random.random()*Ny
     flag=[]
     
-    a=2*math.pi*random.random()
-    a1=math.cos(a)
-    while abs(a1)<0.85:
-        a=2*math.pi*random.random()
-        a1=math.cos(a)
+
+    # 非定向
+    #  a=0
+    #     a1=0
+    # while abs(a1)<0.9999:
+    #     a=2*math.pi*random.random()
+    #     a1=math.cos(a)
+    #  定向
+
+    a = math.pi
+    a1 = 1
+
 
     a2=math.sin(a)
     x1=x0+lf*a1
@@ -61,46 +71,60 @@ while i <number:
     n=len(arr)/2
     arr_n=0
     for j in range(0,n):
+        #
         p1=np.array([arr[arr_n],arr[arr_n+1]])
         p2=np.array([arr1[arr_n],arr1[arr_n+1]])
         p3=(x0,y0)
         p4=(x1,y1)
+
         p5=p3-p1
+
         p6=p3-p2
+
         p7=p4-p1
         p8=p4-p2
         p9=math.hypot(p5[0],p5[1])
         p10=math.hypot(p6[0],p6[1])
         p11=math.hypot(p7[0],p7[1])
         p12=math.hypot(p8[0],p8[1])
-        Point_x0  = x0
-        Point_y0  = y0
-        Point_x1  = x1
-        Point_y1  = y1
-        line_x0  = arr[arr_n]
-        line_y0  = arr[arr_n+1]
-        line_x1  = arr1[arr_n]
-        line_y1  = arr1[arr_n+1]
-        d0,d1=10,10
-        if line_y1 - line_y0 == 0:
-            d0=math.fabs(Point_y0 - line_y0)
-            d1=math.fabs(Point_y1 - line_y0)
-        k1=line_y1-line_y0
-        k2=line_x0-line_x1
-        k3=line_x1*line_y0-line_x0*line_y1
-        d1=(math.fabs(k1*Point_x0+k2*Point_y0+k3))/(math.pow(k1*k1+k2*k2,0.5))
-        d2=(math.fabs(k1*Point_x1+k2*Point_y1+k3))/(math.pow(k1*k1+k2*k2,0.5))
+        # 垂直距离
+        p13 = abs(p3[1]-p1[1])
+        p14 = abs(p4[1]-p2[1])
 
-        k4=y1-y0
-        k5=x0-x1
-        k6=x1*y0-x0*y1
-        d3=(math.fabs(k4*line_x0+k5*line_y0+k6))/(math.pow(k4*k4+k5*k5,0.5))
-        d4=(math.fabs(k4*line_x1+k5*line_y1+k6))/(math.pow(k4*k4+k5*k5,0.5))
+
+        # Point_x0  = x0
+        # Point_y0  = y0
+        # Point_x1  = x1
+        # Point_y1  = y1
+        # line_x0  = arr[arr_n]
+        # line_y0  = arr[arr_n+1]
+        # line_x1  = arr1[arr_n]
+        # line_y1  = arr1[arr_n+1]
+        # d0,d1=10,10
+        # if line_y1 - line_y0 == 0:
+        #     d0=math.fabs(Point_y0 - line_y0)
+        #     d1=math.fabs(Point_y1 - line_y0)
+        # k1=line_y1-line_y0
+        # k2=line_x0-line_x1
+        # k3=line_x1*line_y0-line_x0*line_y1
+        # d1=(math.fabs(k1*Point_x0+k2*Point_y0+k3))/(math.pow(k1*k1+k2*k2,0.5))
+        # d2=(math.fabs(k1*Point_x1+k2*Point_y1+k3))/(math.pow(k1*k1+k2*k2,0.5))
+        #
+        # k4=y1-y0
+        # k5=x0-x1
+        # k6=x1*y0-x0*y1
+        # d3=(math.fabs(k4*line_x0+k5*line_y0+k6))/(math.pow(k4*k4+k5*k5,0.5))
+        # d4=(math.fabs(k4*line_x1+k5*line_y1+k6))/(math.pow(k4*k4+k5*k5,0.5))
 
         # if d1<1 or d2<1 or d3<1 or d4<1:
         #     flag=1
         #     continue
-        if p9<1 or p10<1 or p11<1 or p12<1:
+
+
+        if p3[0]<p1[0]<p4[0] or p3[0]<p2[0]<p4[0]:
+            if p13 < 1 or p14 < 1:
+                flag = 1
+        if p9 < 1 or p10 < 1 or p11 < 1 or p12 < 1:
             flag=1
             continue
         arr_n=arr_n+2

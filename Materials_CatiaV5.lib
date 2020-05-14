@@ -1,0 +1,3053 @@
+((I38
+I35
+S'Bright Oak'
+p0
+I1
+(dp1
+S'Thermal expansion coeffcient'
+p2
+S''
+p3
+sS"Young's Modulus"
+p4
+S'1.5e+010N_m2'
+p5
+sS'Density'
+p6
+S'737kg_m3'
+p7
+sS'visible'
+p8
+(lp9
+g4
+aS"Possion's Ratio"
+p10
+ag6
+ag2
+asS'version'
+p11
+S'6-8'
+p12
+sS'Data'
+p13
+S"{'name': 'Bright Oak', 'materialIdentifier': '', 'description': 'isotropic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((13200000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((735.0,),), 'dependencies': 0}}"
+p14
+sg10
+g3
+stp15
+(I39
+I35
+S'Cork'
+p16
+I1
+(dp17
+S'Data Source'
+p18
+S'Imported from CAE'
+p19
+sS'Description'
+p20
+g19
+sS'Time Stamp'
+p21
+F1237642513.296
+sS'visible'
+p22
+(lp23
+g18
+ag20
+aS'Units'
+p24
+aS'Vendor material name'
+p25
+asS'version'
+p26
+S'6-8'
+p27
+sg25
+g16
+sg24
+g19
+sS'Data'
+p28
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Cork'}"
+p29
+stp30
+(I30
+I19
+S'Pink Granite'
+p31
+I1
+(dp32
+S'Thermal expansion coeffcient'
+p33
+S'0.000007'
+p34
+sS'Yield Strenth'
+p35
+g3
+sS'Density'
+p36
+S'2770kg_m3'
+p37
+sS'visible'
+p38
+(lp39
+S'Young Modulus'
+p40
+aS"Possion's Ratio"
+p41
+ag36
+ag33
+ag35
+asS'version'
+p42
+S'6-8'
+p43
+sS'Data'
+p44
+S"{'name': 'Pink Granite', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p45
+sg41
+S'0.27'
+p46
+sg40
+S'6e+010N_m2'
+p47
+stp48
+(I31
+I19
+S'Pink Marble'
+p49
+I1
+(dp50
+S'Thermal expansion coeffcient'
+p51
+g3
+sS'Yield Strenth'
+p52
+g3
+sS'Density'
+p53
+S'27100kg_m3'
+p54
+sg38
+(lp55
+S'Young Modulus'
+p56
+aS"Possion's Ratio"
+p57
+ag53
+ag51
+ag52
+asg42
+S'6-8'
+p58
+sg44
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Pink Marble', 'density': {'temperatureDependency': OFF, 'table': ((27100.0,),), 'dependencies': 0}}"
+p59
+sg57
+g3
+sg56
+g3
+stp60
+(I32
+I19
+S'Sand'
+p61
+I1
+(dp62
+g38
+(lp63
+S'Density'
+p64
+asg42
+S'6-8'
+p65
+sg44
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Sand'}"
+p66
+sg64
+g3
+stp67
+(I33
+I19
+S'Slate'
+p68
+I1
+(dp69
+g38
+(lp70
+S'Density'
+p71
+asg42
+S'6-8'
+p72
+sg44
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Slate', 'density': {'temperatureDependency': OFF, 'table': ((2550.0,),), 'dependencies': 0}}"
+p73
+sg71
+S'2550kg_m3'
+p74
+stp75
+(I34
+I19
+S'White Onyx'
+p76
+I1
+(dp77
+S'Thermal expansion coeffcient'
+p78
+S'0.000007'
+p79
+sS'Density'
+p80
+S'2770kg_m3'
+p81
+sg38
+(lp82
+S'Young Modulus'
+p83
+aS"Possion's Ratio"
+p84
+ag80
+ag78
+aS'Tensile Strenth'
+p85
+asg42
+S'6-8'
+p86
+sg85
+g3
+sg44
+S"{'name': 'White Onyx', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p87
+sg84
+S'0.27'
+p88
+sg83
+S'6e+010N_m2'
+p89
+stp90
+(I35
+I0
+S'Wood'
+p91
+I0
+(dp92
+tp93
+(I36
+I35
+S'Alpine Fir'
+p94
+I1
+(dp95
+S'Thermal expansion coeffcient'
+p96
+S'0.00000375'
+p97
+sS'Density'
+p98
+S'500kg_m3'
+p99
+sS"Possion\\'s Ratio"
+p100
+S'0.45'
+p101
+sg8
+(lp102
+S"Young\\'s Modulus"
+p103
+ag100
+ag98
+ag96
+asg11
+S'6-8'
+p104
+sg13
+S"{'name': 'Alpine Fir', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((17000000000.0, 0.45),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((500.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((3.75e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p105
+sg103
+S'1.7e+010N_m2'
+p106
+stp107
+(I37
+I35
+S'Bark'
+p108
+I1
+(dp109
+S'Thermal expansion coeffcient'
+p110
+g3
+sS"Young's Modulus"
+p111
+g3
+sS'Density'
+p112
+g3
+sg8
+(lp113
+g111
+aS"Possion's Ratio"
+p114
+ag112
+ag110
+asg11
+S'6-8'
+p115
+sg13
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Bark'}"
+p116
+sg114
+g3
+stp117
+(I85
+I74
+S'Plexiglass'
+p118
+I1
+(dp119
+S'Thermal expansion coeffcient'
+p120
+S'5.5e+007N_m2'
+p121
+sS"Young's Modulus"
+p122
+S'2.9e+009N_m2'
+p123
+sS'Density'
+p124
+S'1200kg_m3'
+p125
+sS'visible'
+p126
+(lp127
+g122
+aS"Possion's Ratio"
+p128
+ag124
+ag120
+aS'Tensile Strenth'
+p129
+asS'version'
+p130
+S'6-8'
+p131
+sg129
+g3
+sS'Data'
+p132
+S"{'name': 'Plexiglass', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((2900000000.0, 0.4),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1200.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((55000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p133
+sg128
+S'0.4'
+p134
+stp135
+(I84
+I74
+S'Plastic'
+p136
+I1
+(dp137
+S'Thermal expansion coeffcient'
+p138
+S'0.0000684'
+p139
+sS"Young's Modulus"
+p140
+S'2.2e+009N_m2'
+p141
+sS'Density'
+p142
+S'1200kg_m3'
+p143
+sg126
+(lp144
+g140
+aS"Possion's Ratio"
+p145
+ag142
+ag138
+asg130
+S'6-8'
+p146
+sg132
+S"{'name': 'Plastic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((2200000000.0, 0.38),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1200.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((6.84e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p147
+sg145
+S'0.38'
+p148
+stp149
+(I87
+I74
+S'Raw Polystyrene'
+p150
+I1
+(dp151
+S'Thermal expansion coeffcient'
+p152
+S'0.000072'
+p153
+sS"Young's Modulus"
+p154
+S'3e+009N_m2'
+p155
+sS'Density'
+p156
+S'1050kg_m3'
+p157
+sg126
+(lp158
+g154
+aS"Possion's Ratio"
+p159
+ag156
+ag152
+asg130
+S'6-8'
+p160
+sg132
+S"{'name': 'Raw Polystyrene', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((3000000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1050.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7.2e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p161
+sg159
+g3
+stp162
+(I86
+I74
+S'Rainy sky'
+p163
+I1
+(dp164
+S'Data Source'
+p165
+S'Imported from CAE'
+p166
+sS'Description'
+p167
+g166
+sS'Time Stamp'
+p168
+F1237646995.218
+sg126
+(lp169
+g165
+ag167
+aS'Units'
+p170
+aS'Vendor material name'
+p171
+asg130
+S'6-8'
+p172
+sg171
+g163
+sg170
+g166
+sg132
+S"{'materialIdentifier': '', 'description': '', 'name': 'Rainy sky'}"
+p173
+stp174
+(I81
+I74
+S'Glass'
+p175
+I1
+(dp176
+S'Thermal expansion coeffcient'
+p177
+S'0.00008'
+p178
+sS"Young's Modulus"
+p179
+S'6.5e+010N_m2'
+p180
+sS'Density'
+p181
+S'2190kg_m3'
+p182
+sg126
+(lp183
+g179
+aS"Possion's Ratio"
+p184
+ag181
+ag177
+asg130
+S'6-8'
+p185
+sg132
+S"{'name': 'Glass', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((65000000000.0, 0.161),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2190.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((8e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p186
+sg184
+S'0.161'
+p187
+stp188
+(I80
+I74
+S'Flat Polystyrene'
+p189
+I1
+(dp190
+S'Thermal expansion coeffcient'
+p191
+S'0.000072'
+p192
+sS"Young's Modulus"
+p193
+S'3e+009N_m2'
+p194
+sS'Density'
+p195
+S'1050kg_m3'
+p196
+sg126
+(lp197
+g193
+aS"Possion's Ratio"
+p198
+ag195
+ag191
+asg130
+S'6-8'
+p199
+sg132
+S"{'name': 'Flat Polystyrene', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((3000000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1050.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7.2e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p200
+sg198
+g3
+stp201
+(I83
+I74
+S'Neons Wall'
+p202
+I1
+(dp203
+g165
+g166
+sg167
+g166
+sg168
+F1237646665.796
+sg126
+(lp204
+g165
+ag167
+ag170
+ag171
+asg130
+S'6-8'
+p205
+sg171
+g202
+sg170
+g166
+sg132
+S"{'materialIdentifier': '', 'description': '', 'name': 'Neons Wall'}"
+p206
+stp207
+(I82
+I74
+S'Mirror'
+p208
+I1
+(dp209
+S'Thermal expansion coeffcient'
+p210
+S'0.00008'
+p211
+sS"Young's Modulus"
+p212
+S'6.5e+010N_m2'
+p213
+sS'Density'
+p214
+S'2190kg_m3'
+p215
+sg126
+(lp216
+g212
+aS"Possion's Ratio"
+p217
+ag214
+ag210
+asg130
+S'6-8'
+p218
+sg132
+S"{'name': 'Mirror', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((65000000000.0, 0.161),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2190.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((8e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p219
+sg217
+S'0.161'
+p220
+stp221
+(I89
+I74
+S'Smoked Glass'
+p222
+I1
+(dp223
+S'Thermal expansion coeffcient'
+p224
+S'0.00008'
+p225
+sS"Young's Modulus"
+p226
+S'6.5e+010N_m2'
+p227
+sS'Density'
+p228
+S'2190kg_m3'
+p229
+sg126
+(lp230
+g226
+aS"Possion's Ratio"
+p231
+ag228
+ag224
+asg130
+S'6-8'
+p232
+sg132
+S"{'name': 'Smoked Glass', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((65000000000.0, 0.161),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2190.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((8e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p233
+sg231
+S'0.161'
+p234
+stp235
+(I88
+I74
+S'Rubber'
+p236
+I1
+(dp237
+S'Thermal expansion coeffcient'
+p238
+S'0.000162'
+p239
+sS"Young's Modulus"
+p240
+S'2e+006N_m2'
+p241
+sS'Density'
+p242
+S'910kg_m3'
+p243
+sg126
+(lp244
+g240
+aS"Possion's Ratio"
+p245
+ag242
+ag238
+asg130
+S'6-8'
+p246
+sg132
+S"{'name': 'Rubber', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((2000000.0, 0.49),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((910.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((0.000162,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p247
+sg245
+S'0.49'
+p248
+stp249
+(I12
+I4
+S'Silver'
+p250
+I1
+(dp251
+S'Thermal expansion coeffcient'
+p252
+S'10491kg_m3'
+p253
+sS'Yield Strenth'
+p254
+S'5.4e+007N_m2'
+p255
+sS'Density'
+p256
+S'0.37'
+p257
+sS'visible'
+p258
+(lp259
+S'Young Modulus'
+p260
+aS"Possion's Ratio"
+p261
+ag256
+ag252
+ag254
+asS'version'
+p262
+S'6-8'
+p263
+sS'Data'
+p264
+S"{'name': 'Silver', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((83000000000.0, 0.37),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((10491.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.89e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((54000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p265
+sg261
+S'8.3e+010N_m2'
+p266
+sg260
+g3
+stp267
+(I13
+I4
+S'Steel'
+p268
+I1
+(dp269
+S'Thermal expansion coeffcient'
+p270
+S'0.0000117'
+p271
+sS'Yield Strenth'
+p272
+S'2.5e+008N_m2'
+p273
+sS'Density'
+p274
+S'7860kg_m3'
+p275
+sg258
+(lp276
+S'Young Modulus'
+p277
+aS"Possion's Ratio"
+p278
+ag274
+ag270
+ag272
+asg262
+S'6-8'
+p279
+sg264
+S"{'name': 'Steel', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((1.17e-05, 0.266),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((7860.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.17e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((250000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p280
+sg278
+S'0.266'
+p281
+sg277
+S'2e+011N_m2'
+p282
+stp283
+(I10
+I4
+S'Magnesium'
+p284
+I1
+(dp285
+S'Thermal expansion coeffcient'
+p286
+S'0.0000288'
+p287
+sS'Yield Strenth'
+p288
+S'2.75e+008N_m2'
+p289
+sS'Density'
+p290
+S'1798kg_m3'
+p291
+sg258
+(lp292
+S'Young Modulus'
+p293
+aS"Possion's Ratio"
+p294
+ag290
+ag286
+ag288
+asg262
+S'6-8'
+p295
+sg264
+S"{'name': 'Magnesium', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((44810000000.0, 1798.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1798.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((2.88e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((275000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p296
+sg294
+S'0.35'
+p297
+sg293
+S'4.481e+010N_m2'
+p298
+stp299
+(I11
+I4
+S'Nickel'
+p300
+I1
+(dp301
+S'Thermal expansion coeffcient'
+p302
+S'0.0000131'
+p303
+sS'Density'
+p304
+S'8880kg_m3'
+p305
+sg258
+(lp306
+S'Young Modulus'
+p307
+aS"Possion's Ratio"
+p308
+ag304
+ag302
+aS'Tensile Strenth'
+p309
+asg262
+S'6-8'
+p310
+sg309
+S'5.9e+007N_m2'
+p311
+sg264
+S"{'name': 'Nickel', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((0.0, 0.31),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((8880.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.31e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((59000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p312
+sg308
+S'0.31'
+p313
+sg307
+S'0N_m2'
+p314
+stp315
+(I16
+I4
+S'Uranium'
+p316
+I1
+(dp317
+S'Thermal expansion coeffcient'
+p318
+S'0.000019'
+p319
+sS'Yield Strenth'
+p320
+S'2e+008N_m2'
+p321
+sS'Density'
+p322
+S'19070kg_m3'
+p323
+sg258
+(lp324
+S'Young Modulus'
+p325
+aS"Possion's Ratio"
+p326
+ag322
+ag318
+ag320
+asg262
+S'6-8'
+p327
+sg264
+S"{'name': 'Uranium', 'density': {'temperatureDependency': OFF, 'table': ((19070.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.9e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((200000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p328
+sg326
+S'0.22'
+p329
+sg325
+S'0N_m2'
+p330
+stp331
+(I17
+I4
+S'Yellow Brass'
+p332
+I1
+(dp333
+S'Thermal expansion coeffcient'
+p334
+S'0.00002'
+p335
+sS'Yield Strenth'
+p336
+S'4.35e+008N_m2'
+p337
+sS'Density'
+p338
+S'8470kg_m3'
+p339
+sg258
+(lp340
+S'Young Modulus'
+p341
+aS"Possion's Ratio"
+p342
+ag338
+ag334
+ag336
+asg262
+S'6-8'
+p343
+sg264
+S"{'name': 'Yellow Brass', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((105000000000.0, 0.346),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((8470.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((2e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((435000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p344
+sg342
+S'0.346'
+p345
+sg341
+S'1.05e+011N_m2'
+p346
+stp347
+(I14
+I4
+S'Titanium'
+p348
+I1
+(dp349
+S'Thermal expansion coeffcient'
+p350
+S'0.0000095'
+p351
+sS'Yield Strenth'
+p352
+S'8.25e+008N_m2'
+p353
+sS'Density'
+p354
+S'4460kg_m3'
+p355
+sg258
+(lp356
+S'Young Modulus'
+p357
+aS"Possion's Ratio"
+p358
+ag354
+ag350
+ag352
+asg262
+S'6-8'
+p359
+sg264
+S"{'name': 'Titanium', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((114000000000.0, 0.34),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((4460.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((9.5e-06,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((825000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p360
+sg358
+S'0.34'
+p361
+sg357
+S'1.14e+011N_m2'
+p362
+stp363
+(I15
+I4
+S'Tungsten'
+p364
+I1
+(dp365
+S'Thermal expansion coeffcient'
+p366
+S'0.00000558'
+p367
+sS'Yield Strenth'
+p368
+S'7.31e+008N_m2'
+p369
+sS'Density'
+p370
+S'16870kg_m3'
+p371
+sg258
+(lp372
+S'Young Modulus'
+p373
+aS"Possion's Ratio"
+p374
+ag370
+ag366
+ag368
+asg262
+S'6-8'
+p375
+sg264
+S"{'name': 'Tungsten', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((310200000000.0, 0.31),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((16870.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((5.58e-06,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((731000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p376
+sg374
+S'0.31'
+p377
+sg373
+S'3.102e+011N_m2'
+p378
+stp379
+(I18
+I4
+S'Zinc'
+p380
+I1
+(dp381
+S'Thermal expansion coeffcient'
+p382
+S'0.0000312'
+p383
+sS'Yield Strenth'
+p384
+S'1.4e+008N_m2'
+p385
+sS'Density'
+p386
+S'7100kg_m3'
+p387
+sg258
+(lp388
+S'Young Modulus'
+p389
+aS"Possion's Ratio"
+p390
+ag386
+ag382
+ag384
+asg262
+S'6-8'
+p391
+sg264
+S"{'name': 'Zinc', 'density': {'temperatureDependency': OFF, 'table': ((7100.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((3.12e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((140000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p392
+sg390
+S'0'
+p393
+sg389
+S'0N_m2'
+p394
+stp395
+(I19
+I0
+S'Stone'
+p396
+I0
+(dp397
+tp398
+(I92
+I74
+S'Water'
+p399
+I1
+(dp400
+g126
+(lp401
+S'Density'
+p402
+asg130
+S'6-8'
+p403
+sg132
+S"{'materialIdentifier': '', 'description': '', 'name': 'Water', 'density': {'temperatureDependency': OFF, 'table': ((1000.0,),), 'dependencies': 0}}"
+p404
+sg402
+S'1000kg_m3'
+p405
+stp406
+(I90
+I74
+S'Summer sky'
+p407
+I1
+(dp408
+g165
+g166
+sg167
+g166
+sg168
+F1237647436.187
+sg126
+(lp409
+g165
+ag167
+ag170
+ag171
+asg130
+S'6-8'
+p410
+sg171
+g407
+sg170
+g166
+sg132
+S"{'materialIdentifier': '', 'description': '', 'name': 'Summer sky'}"
+p411
+stp412
+(I91
+I74
+S'Sunset'
+p413
+I1
+(dp414
+g165
+g166
+sg167
+g166
+sg168
+F1237647460.296
+sg126
+(lp415
+g165
+ag167
+ag170
+ag171
+asg130
+S'6-8'
+p416
+sg171
+g413
+sg170
+g166
+sg132
+S"{'materialIdentifier': '', 'description': '', 'name': 'Sunset'}"
+p417
+stp418
+(I67
+I54
+S'Roughcast'
+p419
+I1
+(dp420
+S'Data Source'
+p421
+S'Imported from CAE'
+p422
+sS'Description'
+p423
+g422
+sS'Time Stamp'
+p424
+F1237645124.312
+sS'visible'
+p425
+(lp426
+g421
+ag423
+aS'Units'
+p427
+aS'Vendor material name'
+p428
+asS'version'
+p429
+S'6-8'
+p430
+sg428
+g419
+sg427
+g422
+sS'Data'
+p431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Roughcast'}"
+p432
+stp433
+(I66
+I54
+S'Road'
+p434
+I1
+(dp435
+g421
+g422
+sg423
+g422
+sg424
+F1237645095.312
+sg425
+(lp436
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p437
+sg428
+g434
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Road'}"
+p438
+stp439
+(I65
+I54
+S'PVC'
+p440
+I1
+(dp441
+S'Thermal expansion coeffcient'
+p442
+S'0.00009'
+p443
+sS'Yield Strenth'
+p444
+S'0.2N_m2'
+p445
+sS"Young's Modulus"
+p446
+S'3e+009N_m2'
+p447
+sS'Density'
+p448
+S'1400kg_m3'
+p449
+sg425
+(lp450
+g446
+aS"Possion's Ratio"
+p451
+ag448
+ag442
+ag444
+asg429
+S'6-8'
+p452
+sg431
+S"{'name': 'PVC', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((3000000000.0, 0.4),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1400.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((9e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((0.2, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p453
+sg451
+S'0.4'
+p454
+stp455
+(I64
+I54
+S'Plaster'
+p456
+I1
+(dp457
+g421
+g422
+sg423
+g422
+sg424
+F1237644853.078
+sg425
+(lp458
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p459
+sg428
+g456
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Plaster'}"
+p460
+stp461
+(I63
+I54
+S'Pavement'
+p462
+I1
+(dp463
+S'Thermal expansion coeffcient'
+p464
+S'0.000007'
+p465
+sS"Young's Modulus"
+p466
+S'6e+010N_m2'
+p467
+sS'Density'
+p468
+S'7200kg_m3'
+p469
+sg425
+(lp470
+g466
+aS"Possion's Ratio"
+p471
+ag468
+ag464
+aS'Tensile Strenth'
+p472
+asg429
+S'6-8'
+p473
+sg472
+g3
+sg431
+S"{'name': 'Pavement', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((7200.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p474
+sg471
+S'0.27'
+p475
+stp476
+(I62
+I54
+S'No Skid'
+p477
+I1
+(dp478
+g421
+g422
+sg423
+g422
+sg424
+F1237644671.437
+sg425
+(lp479
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p480
+sg428
+g477
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'No Skid'}"
+p481
+stp482
+(I61
+I54
+S'Marble Paving'
+p483
+I1
+(dp484
+S'Thermal expansion coeffcient'
+p485
+S'0.000007'
+p486
+sS'Yield Strenth'
+p487
+g3
+sS"Young's Modulus"
+p488
+S'6e+010N_m2'
+p489
+sS'Density'
+p490
+S'2770kg_m3'
+p491
+sg425
+(lp492
+g488
+aS"Possion's Ratio"
+p493
+ag490
+ag485
+ag487
+asg429
+S'6-8'
+p494
+sg431
+S"{'name': 'Marble Paving', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p495
+sg493
+S'0.27'
+p496
+stp497
+(I60
+I54
+S'Kitchen Floor'
+p498
+I1
+(dp499
+g421
+g422
+sg423
+g422
+sg424
+F1237644461.562
+sg425
+(lp500
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p501
+sg428
+g498
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Kitchen Floor'}"
+p502
+stp503
+(I69
+I54
+S'Turf'
+p504
+I1
+(dp505
+g421
+g422
+sg423
+g422
+sg424
+F1237645185.125
+sg425
+(lp506
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p507
+sg428
+g504
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Turf'}"
+p508
+stp509
+(I68
+I54
+S'Tarmac'
+p510
+I1
+(dp511
+g421
+g422
+sg423
+g422
+sg424
+F1237645151.937
+sg425
+(lp512
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p513
+sg428
+g510
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Tarmac'}"
+p514
+stp515
+(I74
+I0
+S'Other'
+p516
+I0
+(dp517
+tp518
+(I75
+I74
+S'Amber Mirror'
+p519
+I1
+(dp520
+S'Thermal expansion coeffcient'
+p521
+S'0.00008'
+p522
+sS"Young's Modulus"
+p523
+S'6.5e+010N_m2'
+p524
+sS'Density'
+p525
+S'2190kg_m3'
+p526
+sg126
+(lp527
+g523
+aS"Possion's Ratio"
+p528
+ag525
+ag521
+asg130
+S'6-8'
+p529
+sg132
+S"{'name': 'Amber Mirror', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((65000000000.0, 0.161),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2190.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((8e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p530
+sg528
+S'0.161'
+p531
+stp532
+(I76
+I74
+S'Bright Plastic'
+p533
+I1
+(dp534
+S'Thermal expansion coeffcient'
+p535
+S'0.0000684'
+p536
+sS"Young's Modulus"
+p537
+S'2.2e+009N_m2'
+p538
+sS'Density'
+p539
+S'1200kg_m3'
+p540
+sg126
+(lp541
+g537
+aS"Possion's Ratio"
+p542
+ag539
+ag535
+asg130
+S'6-8'
+p543
+sg132
+S"{'name': 'Bright Plastic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((2200000000.0, 0.38),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1200.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((6.84e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p544
+sg542
+S'0.38'
+p545
+stp546
+(I77
+I74
+S'Chessboard'
+p547
+I1
+(dp548
+S'Thermal expansion coeffcient'
+p549
+g3
+sS"Young's Modulus"
+p550
+g3
+sS'Density'
+p551
+S'2500kg_m3'
+p552
+sg126
+(lp553
+g550
+aS"Possion's Ratio"
+p554
+ag551
+ag549
+asg130
+S'6-8'
+p555
+sg132
+S"{'materialIdentifier': '', 'description': '', 'name': 'Chessboard', 'density': {'temperatureDependency': OFF, 'table': ((2500.0,),), 'dependencies': 0}}"
+p556
+sg554
+g3
+stp557
+(I70
+I54
+S'Wall of Bricks'
+p558
+I1
+(dp559
+g421
+g422
+sg423
+g422
+sg424
+F1237645217.218
+sg425
+(lp560
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p561
+sg428
+g558
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Wall of Bricks'}"
+p562
+stp563
+(I71
+I54
+S'Wall of Castle'
+p564
+I1
+(dp565
+S'Thermal expansion coeffcient'
+p566
+S'0.000007'
+p567
+sS"Young's Modulus"
+p568
+S'6e+010N_m2'
+p569
+sS'Density'
+p570
+S'2770kg_m3'
+p571
+sg425
+(lp572
+g568
+aS"Possion's Ratio"
+p573
+ag570
+ag566
+asg429
+S'6-8'
+p574
+sg431
+S"{'name': 'Wall of Castle', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((0.27,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p575
+sg573
+S'0.27'
+p576
+stp577
+(I72
+I54
+S'Wall of Stones'
+p578
+I1
+(dp579
+S'Thermal expansion coeffcient'
+p580
+S'0.000007'
+p581
+sS"Young's Modulus"
+p582
+S'6e+010N_m2'
+p583
+sS'Density'
+p584
+S'2770kg_m3'
+p585
+sg425
+(lp586
+g582
+aS"Possion's Ratio"
+p587
+ag584
+ag580
+asg429
+S'6-8'
+p588
+sg431
+S"{'name': 'Wall of Stones', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p589
+sg587
+S'0.27'
+p590
+stp591
+(I73
+I54
+S'Wood Floor'
+p592
+I1
+(dp593
+S'Thermal expansion coeffcient'
+p594
+g3
+sS"Young's Modulus"
+p595
+S'1.32e+010N_m2'
+p596
+sS'Density'
+p597
+S'769kg_m3'
+p598
+sg425
+(lp599
+g595
+aS"Possion's Ratio"
+p600
+ag597
+ag594
+asg429
+S'6-8'
+p601
+sg431
+S"{'name': 'Wood Floor', 'materialIdentifier': '', 'description': '', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((13200000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((769.0,),), 'dependencies': 0}}"
+p602
+sg600
+g3
+stp603
+(I78
+I74
+S'DS star'
+p604
+I1
+(dp605
+g165
+g166
+sg167
+g166
+sg168
+F1237646081.843
+sg126
+(lp606
+g165
+ag167
+ag170
+ag171
+asg130
+S'6-8'
+p607
+sg171
+g604
+sg170
+g166
+sg132
+S"{'materialIdentifier': '', 'description': '', 'name': 'DS star'}"
+p608
+stp609
+(I79
+I74
+S'Epoxy'
+p610
+I1
+(dp611
+S'Thermal expansion coeffcient'
+p612
+S'0.00006'
+p613
+sS"Young's Modulus"
+p614
+S'3e+009N_m2'
+p615
+sS'Density'
+p616
+S'1300kg_m3'
+p617
+sg126
+(lp618
+g614
+aS"Possion's Ratio"
+p619
+ag616
+ag612
+asg130
+S'6-8'
+p620
+sg132
+S"{'name': 'Epoxy', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((3000000000.0, 0.37),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1300.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((6e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p621
+sg619
+S'0.37'
+p622
+stp623
+(I49
+I0
+S'Fabrics'
+p624
+I0
+(dp625
+tp626
+(I48
+I35
+S'Wild Walnut'
+p627
+I1
+(dp628
+S'Thermal expansion coeffcient'
+p629
+g3
+sS'Density'
+p630
+S'609kg_m3'
+p631
+sS"Young\\'s Modulus"
+p632
+S'1.16e+010N_m2'
+p633
+sg8
+(lp634
+g632
+aS"Possion's Ratio"
+p635
+ag630
+ag629
+asg11
+S'6-8'
+p636
+sg13
+S"{'name': 'Wild Walnut', 'materialIdentifier': '', 'description': 'isotropic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((11600000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((609.0,),), 'dependencies': 0}}"
+p637
+sg635
+g3
+stp638
+(I41
+I35
+S'Oak'
+p639
+I1
+(dp640
+S'Thermal expansion coeffcient'
+p641
+g3
+sS'Density'
+p642
+S'753kg_m3'
+p643
+sS"Young\\'s Modulus"
+p644
+S'1.32e+010N_m2'
+p645
+sg8
+(lp646
+g644
+aS"Possion's Ratio"
+p647
+ag642
+ag641
+asg11
+S'6-8'
+p648
+sg13
+S"{'name': 'Oak', 'materialIdentifier': '', 'description': 'isotropic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((13200000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((753.0,),), 'dependencies': 0}}"
+p649
+sg647
+g3
+stp650
+(I40
+I35
+S'Dark Oak'
+p651
+I1
+(dp652
+S'Thermal expansion coeffcient'
+p653
+g3
+sS"Young's Modulus"
+p654
+S'1.23e+010N_m2'
+p655
+sS'Density'
+p656
+S'769kg_m3'
+p657
+sg8
+(lp658
+g654
+aS"Possion's Ratio"
+p659
+ag656
+ag653
+asg11
+S'6-8'
+p660
+sg13
+S"{'name': 'Dark Oak', 'materialIdentifier': '', 'description': 'isotropic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((12300000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((769.0,),), 'dependencies': 0}}"
+p661
+sg659
+g3
+stp662
+(I43
+I35
+S'Scandinavian Fir'
+p663
+I1
+(dp664
+S'Thermal expansion coeffcient'
+p665
+S'0.00000375'
+p666
+sS'Density'
+p667
+S'550kg_m3'
+p668
+sS"Possion\\'s Ratio"
+p669
+g3
+sg8
+(lp670
+S"Young\\'s Modulus"
+p671
+ag669
+ag667
+ag665
+asg11
+S'6-8'
+p672
+sg13
+S"{'name': 'Scandinavian Fir', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((17000000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((550.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((3.75e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p673
+sg671
+S'1.7e+010N_m2'
+p674
+stp675
+(I42
+I35
+S'Red Wood'
+p676
+I1
+(dp677
+S'Thermal expansion coeffcient'
+p678
+g3
+sS'Density'
+p679
+S'512kg_m3'
+p680
+sS"Young\\'s Modulus"
+p681
+S'9e+009N_m2'
+p682
+sg8
+(lp683
+g681
+aS"Possion's Ratio"
+p684
+ag679
+ag678
+asg11
+S'6-8'
+p685
+sg13
+S"{'name': 'Red Wood', 'materialIdentifier': '', 'description': 'isotropic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((9000000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((512.0,),), 'dependencies': 0}}"
+p686
+sg684
+g3
+stp687
+(I45
+I35
+S'Timber'
+p688
+I1
+(dp689
+S'Thermal expansion coeffcient'
+p690
+S'0.000004'
+p691
+sS'Density'
+p692
+S'610kg_m3'
+p693
+sS"Possion\\'s Ratio"
+p694
+S'0.45'
+p695
+sg8
+(lp696
+S"Young\\'s Modulus"
+p697
+ag694
+ag692
+ag690
+asg11
+S'6-8'
+p698
+sg13
+S"{'name': 'Timber', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((14000000000.0, 0.45),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((610.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((4e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p699
+sg697
+S'1.4e+010N_m2'
+p700
+stp701
+(I44
+I35
+S'Teak'
+p702
+I1
+(dp703
+S'Thermal expansion coeffcient'
+p704
+g3
+sS'Density'
+p705
+S'641kg_m3'
+p706
+sS"Young\\'s Modulus"
+p707
+S'1e+010N_m2'
+p708
+sg8
+(lp709
+g707
+aS"Possion's Ratio"
+p710
+ag705
+ag704
+asg11
+S'6-8'
+p711
+sg13
+S"{'name': 'Teak', 'materialIdentifier': '', 'description': 'isotropic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((10000000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((641.0,),), 'dependencies': 0}}"
+p712
+sg710
+g3
+stp713
+(I47
+I35
+S'Wild Cherry'
+p714
+I1
+(dp715
+S'Thermal expansion coeffcient'
+p716
+g3
+sS"Young's Modulus"
+p717
+g3
+sS'Density'
+p718
+S'600kg_m3'
+p719
+sg8
+(lp720
+g717
+aS"Possion's Ratio"
+p721
+ag718
+ag716
+asg11
+S'6-8'
+p722
+sg13
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Wild Cherry', 'density': {'temperatureDependency': OFF, 'table': ((600.0,),), 'dependencies': 0}}"
+p723
+sg721
+g3
+stp724
+(I46
+I35
+S'Walnut'
+p725
+I1
+(dp726
+S'Thermal expansion coeffcient'
+p727
+g3
+sS'Density'
+p728
+S'609kg_m3'
+p729
+sS"Young\\'s Modulus"
+p730
+S'1.16e+010N_m2'
+p731
+sg8
+(lp732
+g730
+aS"Possion's Ratio"
+p733
+ag728
+ag727
+asg11
+S'6-8'
+p734
+sg13
+S"{'name': 'Walnut', 'materialIdentifier': '', 'description': 'isotropic', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((11600000000.0, 0.0),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((609.0,),), 'dependencies': 0}}"
+p735
+sg733
+g3
+stp736
+(I58
+I54
+S'Grate'
+p737
+I1
+(dp738
+g421
+g422
+sg423
+g422
+sg424
+F1237644328.156
+sg425
+(lp739
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p740
+sg428
+g737
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Grate'}"
+p741
+stp742
+(I59
+I54
+S'Hexagonal Tiling'
+p743
+I1
+(dp744
+g421
+g422
+sg423
+g422
+sg424
+F1237644362.828
+sg425
+(lp745
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p746
+sg428
+g743
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Hexagonal Tiling'}"
+p747
+stp748
+(I56
+I54
+S'Floor'
+p749
+I1
+(dp750
+g421
+g422
+sg423
+g422
+sg424
+F1237644142.156
+sg425
+(lp751
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p752
+sg428
+g749
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Floor'}"
+p753
+stp754
+(I57
+I54
+S'Glossy Floor'
+p755
+I1
+(dp756
+g421
+g422
+sg423
+g422
+sg424
+F1237644258.343
+sg425
+(lp757
+g421
+ag423
+ag427
+ag428
+asg429
+S'6-8'
+p758
+sg428
+g755
+sg427
+g422
+sg431
+S"{'materialIdentifier': '', 'description': '', 'name': 'Glossy Floor'}"
+p759
+stp760
+(I54
+I0
+S'Construction'
+p761
+I0
+(dp762
+tp763
+(I55
+I54
+S'Concrete'
+p764
+I1
+(dp765
+S'Thermal expansion coeffcient'
+p766
+S'0.00001'
+p767
+sS'Yield Strenth'
+p768
+g3
+sS"Young's Modulus"
+p769
+S'2.5e+010N_m2'
+p770
+sS'Density'
+p771
+S'2320kg_m3'
+p772
+sg425
+(lp773
+g769
+aS"Possion's Ratio"
+p774
+ag771
+ag766
+ag768
+asg429
+S'6-8'
+p775
+sg431
+S"{'name': 'Concrete', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((25000000000.0, 0.3),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2320.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1e-05,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': ''}"
+p776
+sg774
+S'0.3'
+p777
+stp778
+(I52
+I49
+S'Leather'
+p779
+I1
+(dp780
+S'Data Source'
+p781
+S'Imported from CAE'
+p782
+sS'Description'
+p783
+g782
+sS'Time Stamp'
+p784
+F1237643596.484
+sS'visible'
+p785
+(lp786
+g781
+ag783
+aS'Units'
+p787
+aS'Vendor material name'
+p788
+asS'version'
+p789
+S'6-8'
+p790
+sg788
+g779
+sg787
+g782
+sS'Data'
+p791
+S"{'materialIdentifier': '', 'description': '', 'name': 'Leather'}"
+p792
+stp793
+(I53
+I49
+S'Nylon'
+p794
+I1
+(dp795
+S'Thermal expansion coeffcient'
+p796
+S'0.00008'
+p797
+sS'Yield Strenth'
+p798
+S'5.5e+007N_m2'
+p799
+sS"Young's Modulus"
+p800
+S'4e+009N_m2'
+p801
+sS'Density'
+p802
+S'1200kg_m3'
+p803
+sg785
+(lp804
+g800
+aS"Possion's Ratio"
+p805
+ag802
+ag796
+ag798
+asg789
+S'6-8'
+p806
+sg791
+S"{'name': 'Nylon', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((4000000000.0, 0.4),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((1200.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((8e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((55000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p807
+sg805
+S'0.4'
+p808
+stp809
+(I50
+I49
+S'Fabric'
+p810
+I1
+(dp811
+g781
+g782
+sg783
+g782
+sg784
+F1237643477.859
+sg785
+(lp812
+g781
+ag783
+ag787
+ag788
+asg789
+S'6-8'
+p813
+sg788
+g810
+sg787
+g782
+sg791
+S"{'materialIdentifier': '', 'description': '', 'name': 'Fabric'}"
+p814
+stp815
+(I51
+I49
+S'Honeycomb'
+p816
+I1
+(dp817
+S'Thermal expansion coeffcient'
+p818
+g3
+sS"Young's Modulus"
+p819
+g3
+sS'Density'
+p820
+S'40kg_m3'
+p821
+sg785
+(lp822
+g819
+aS"Possion's Ratio"
+p823
+ag820
+ag818
+asg789
+S'6-8'
+p824
+sg791
+S"{'materialIdentifier': '', 'description': '', 'name': 'Honeycomb', 'density': {'temperatureDependency': OFF, 'table': ((40.0,),), 'dependencies': 0}}"
+p825
+sg823
+g3
+stp826
+(I29
+I19
+S'Malachite'
+p827
+I1
+(dp828
+S'Thermal expansion coeffcient'
+p829
+g3
+sS'Yield Strenth'
+p830
+g3
+sS'Density'
+p831
+S'38000kg_m3'
+p832
+sg38
+(lp833
+S'Young Modulus'
+p834
+aS"Possion's Ratio"
+p835
+ag831
+ag829
+ag830
+asg42
+S'6-8'
+p836
+sg44
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Malachite', 'density': {'temperatureDependency': OFF, 'table': ((38000.0,),), 'dependencies': 0}}"
+p837
+sg835
+g3
+sg834
+g3
+stp838
+(I28
+I19
+S'Italian Marble'
+p839
+I1
+(dp840
+S'Thermal expansion coeffcient'
+p841
+S'0.000007'
+p842
+sS'Density'
+p843
+S'2770kg_m3'
+p844
+sg38
+(lp845
+S'Young Modulus'
+p846
+aS"Possion's Ratio"
+p847
+ag843
+ag841
+aS'Tensile Strenth'
+p848
+asg42
+S'6-8'
+p849
+sg848
+g3
+sg44
+S"{'name': 'Italian Marble', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p850
+sg847
+S'0.27'
+p851
+sg846
+S'6e+010N_m2'
+p852
+stp853
+(I23
+I19
+S'Carrara Marble'
+p854
+I1
+(dp855
+S'Thermal expansion coeffcient'
+p856
+S'0.000007'
+p857
+sS'Yield Strenth'
+p858
+g3
+sS'Density'
+p859
+S'2770kg_m3'
+p860
+sg38
+(lp861
+S'Young Modulus'
+p862
+aS"Possion's Ratio"
+p863
+ag859
+ag856
+ag858
+asg42
+S'6-8'
+p864
+sg44
+S"{'name': 'Carrara Marble', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p865
+sg863
+S'0.27'
+p866
+sg862
+S'6e+010N_m2'
+p867
+stp868
+(I22
+I19
+S'Blue Onyx'
+p869
+I1
+(dp870
+S'Thermal expansion coeffcient'
+p871
+g3
+sS'Yield Strenth'
+p872
+g3
+sS'Density'
+p873
+S'25000kg_m3'
+p874
+sg38
+(lp875
+S'Young Modulus'
+p876
+aS"Possion's Ratio"
+p877
+ag873
+ag871
+ag872
+asg42
+S'6-8'
+p878
+sg44
+S"{'name': 'Blue Onyx', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p879
+sg877
+g3
+sg876
+g3
+stp880
+(I21
+I19
+S'Blue Onyx'
+p881
+I1
+(dp882
+S'Thermal expansion coeffcient'
+p883
+S'0.000007'
+p884
+sS'Yield Strenth'
+p885
+S'0N_m2'
+p886
+sS'Density'
+p887
+S'2770kg_m3'
+p888
+sg38
+(lp889
+S'Young Modulus'
+p890
+aS"Possion's Ratio"
+p891
+ag887
+ag883
+ag885
+asg42
+S'6-8'
+p892
+sg44
+S"{'name': 'Blue Onyx', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p893
+sg891
+S'0.27'
+p894
+sg890
+S'6e+010N_m2'
+p895
+stp896
+(I20
+I19
+S'Alabaster'
+p897
+I1
+(dp898
+S'Thermal expansion coeffcient'
+p899
+g3
+sS'Yield Strenth'
+p900
+g3
+sS'Density'
+p901
+S'23000kg_m3'
+p902
+sg38
+(lp903
+S'Young Modulus'
+p904
+aS"Possion's Ratio"
+p905
+ag901
+ag899
+ag900
+asg42
+S'6-8'
+p906
+sg44
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Alabaster', 'density': {'temperatureDependency': OFF, 'table': ((23000.0,),), 'dependencies': 0}}"
+p907
+sg905
+g3
+sg904
+g3
+stp908
+(I27
+I19
+S'Granite'
+p909
+I1
+(dp910
+S'Thermal expansion coeffcient'
+p911
+S'0.000007'
+p912
+sS'Yield Strenth'
+p913
+g3
+sS'Density'
+p914
+S'2770kg_m3'
+p915
+sg38
+(lp916
+S'Young Modulus'
+p917
+aS"Possion's Ratio"
+p918
+ag914
+ag911
+ag913
+asg42
+S'6-8'
+p919
+sg44
+S"{'name': 'Granite', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2770.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p920
+sg918
+S'0.27'
+p921
+sg917
+S'6e+010N_m2'
+p922
+stp923
+(I26
+I19
+S'Flint'
+p924
+I1
+(dp925
+S'Yield Strenth'
+p926
+g3
+sS'Density'
+p927
+g3
+sg38
+(lp928
+S'Young Modulus'
+p929
+aS"Possion's Ratio"
+p930
+ag927
+ag926
+asg42
+S'6-8'
+p931
+sg44
+S"{'materialIdentifier': '', 'description': 'isotropic', 'name': 'Flint'}"
+p932
+sg930
+g3
+sg929
+g3
+stp933
+(I25
+I19
+S'Emerald'
+p934
+I1
+(dp935
+S'Thermal expansion coeffcient'
+p936
+S'0.000007'
+p937
+sS'Yield Strenth'
+p938
+S'0N_m2'
+p939
+sS'Density'
+p940
+S'2770kg_m3'
+p941
+sg38
+(lp942
+S'Young Modulus'
+p943
+aS"Possion's Ratio"
+p944
+ag940
+ag936
+ag938
+asg42
+S'6-8'
+p945
+sg44
+S"{'name': 'Emerald', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((60000000000.0, 0.27),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((0.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((7e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p946
+sg944
+S'0.27'
+p947
+sg943
+S'6e+010N_m2'
+p948
+stp949
+(I24
+I19
+S'Diamond'
+p950
+I1
+(dp951
+S'Thermal expansion coeffcient'
+p952
+S'0.00000118'
+p953
+sS'Yield Strenth'
+p954
+S'0N_m2'
+p955
+sS'Density'
+p956
+S'3520kg_m3'
+p957
+sg38
+(lp958
+S'Young Modulus'
+p959
+aS"Possion's Ratio"
+p960
+ag956
+ag952
+ag954
+asg42
+S'6-8'
+p961
+sg44
+S"{'name': 'Diamond', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((0.0, 0.17),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((3520.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.18e-06,),), 'type': ISOTROPIC}, 'materialIdentifier': '', 'description': 'isotropic'}"
+p962
+sg960
+S'0.17'
+p963
+sg959
+g955
+stp964
+(I8
+I4
+S'Iron'
+p965
+I1
+(dp966
+S'Thermal expansion coeffcient'
+p967
+S'0.0000121'
+p968
+sS'Yield Strenth'
+p969
+S'3.1e+008N_m2'
+p970
+sS'Density'
+p971
+S'7870kg_m3'
+p972
+sg258
+(lp973
+S'Young Modulus'
+p974
+aS"Possion's Ratio"
+p975
+ag971
+ag967
+ag969
+asg262
+S'6-8'
+p976
+sg264
+S"{'name': 'Iron', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((70000000000.0, 0.291),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((7870.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.21e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((310000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p977
+sg975
+S'0.291'
+p978
+sg974
+S'7e+010N_m2'
+p979
+stp980
+(I9
+I4
+S'Lead'
+p981
+I1
+(dp982
+S'Thermal expansion coeffcient'
+p983
+S'0.0000289'
+p984
+sS'Density'
+p985
+S'11340kg_m3'
+p986
+sg258
+(lp987
+S'Young Modulus'
+p988
+aS"Possion's Ratio"
+p989
+ag985
+ag983
+aS'Tensile Strenth'
+p990
+asg262
+S'6-8'
+p991
+sg990
+S'8e+006N_m2'
+p992
+sg264
+S"{'name': 'Lead', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((16000000000.0, 0.44),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((11340.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((2.89e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((8000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p993
+sg989
+S'0.44'
+p994
+sg988
+S'1.6e+010N_m2'
+p995
+stp996
+(I0
+I-1
+S'Materials_CatiaV5.lib'
+p997
+I0
+(dp998
+tp999
+(I1
+I4
+S'Aluminum'
+p1000
+I1
+(dp1001
+S'Thermal expansion coeffcient'
+p1002
+S'0.0000236'
+p1003
+sS'Yield Strenth'
+p1004
+S'9.5e+007N_m2'
+p1005
+sS'Density'
+p1006
+S'2710kg_m3'
+p1007
+sg258
+(lp1008
+S'Young Modulus'
+p1009
+aS"Possion's Ratio"
+p1010
+ag1006
+ag1004
+ag1002
+asg262
+S'6-8'
+p1011
+sg264
+S"{'name': 'Aluminum', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((70000000000.0, 0.346),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((2710.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((2.36e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((95000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p1012
+sg1010
+S'0.346'
+p1013
+sg1009
+S'7e+010N_m2'
+p1014
+stp1015
+(I2
+I4
+S'Brass'
+p1016
+I1
+(dp1017
+S'Thermal expansion coeffcient'
+p1018
+S'0.0000167'
+p1019
+sS'Yield Strenth'
+p1020
+S'3.5e+008N_m2'
+p1021
+sS'Density'
+p1022
+S'8216kg_m3'
+p1023
+sg258
+(lp1024
+S'Young Modulus'
+p1025
+aS"Possion's Ratio"
+p1026
+ag1022
+ag1018
+ag1020
+asg262
+S'6-8'
+p1027
+sg264
+S"{'name': 'Brass', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((131000000000.0, 0.35),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((8216.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.67e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((350000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p1028
+sg1026
+S'0.35'
+p1029
+sg1025
+S'1.31e+011N_m2'
+p1030
+stp1031
+(I3
+I4
+S'Bronze'
+p1032
+I1
+(dp1033
+S'Thermal expansion coeffcient'
+p1034
+S'0.0000178'
+p1035
+sS'Yield Strenth'
+p1036
+S'5.2e+008N_m2'
+p1037
+sS'Density'
+p1038
+S'8860kg_m3'
+p1039
+sg258
+(lp1040
+S'Young Modulus'
+p1041
+aS"Possion's Ratio"
+p1042
+ag1038
+ag1034
+ag1036
+asg262
+S'6-8'
+p1043
+sg264
+S"{'name': 'Bronze', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((110000000000.0, 0.341),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((8860.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.78e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((520000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p1044
+sg1042
+S'0.341'
+p1045
+sg1041
+S'1.1e+011N_m2'
+p1046
+stp1047
+(I4
+I0
+S'Metal'
+p1048
+I0
+(dp1049
+tp1050
+(I5
+I4
+S'Chroma'
+p1051
+I1
+(dp1052
+S'Thermal expansion coeffcient'
+p1053
+S'0.0000062'
+p1054
+sS'Yield Strenth'
+p1055
+S'3.6e+008N_m2'
+p1056
+sS'Density'
+p1057
+S'7190kg_m3'
+p1058
+sg258
+(lp1059
+S'Young Modulus'
+p1060
+aS"Possion's Ratio"
+p1061
+ag1057
+ag1053
+ag1055
+asg262
+S'6-8'
+p1062
+sg264
+S"{'name': 'Chroma', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((70000000000.0, 0.3),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((7190.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((6.2e-06,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((360000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p1063
+sg1061
+S'0.3'
+p1064
+sg1060
+S'7e+010N_m2'
+p1065
+stp1066
+(I6
+I4
+S'Copper'
+p1067
+I1
+(dp1068
+S'Thermal expansion coeffcient'
+p1069
+S'0.0000165'
+p1070
+sS'Yield Strenth'
+p1071
+S'2.9e+008N_m2'
+p1072
+sS'Density'
+p1073
+S'8900kg_m3'
+p1074
+sg258
+(lp1075
+S'Young Modulus'
+p1076
+aS"Possion's Ratio"
+p1077
+ag1073
+ag1069
+ag1071
+asg262
+S'6-8'
+p1078
+sg264
+S"{'name': 'Copper', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((130000000000.0, 0.33),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((8900.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.65e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((290000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p1079
+sg1077
+S'0.33'
+p1080
+sg1076
+S'1.3e+011N_m2'
+p1081
+stp1082
+(I7
+I4
+S'Gold'
+p1083
+I1
+(dp1084
+S'Thermal expansion coeffcient'
+p1085
+S'0.0000142'
+p1086
+sS'Yield Strenth'
+p1087
+S'2.05e+008N_m2'
+p1088
+sS'Density'
+p1089
+S'19320kg_m3'
+p1090
+sg258
+(lp1091
+S'Young Modulus'
+p1092
+aS"Possion's Ratio"
+p1093
+ag1089
+ag1085
+ag1087
+asg262
+S'6-8'
+p1094
+sg264
+S"{'name': 'Gold', 'elastic': {'temperatureDependency': OFF, 'moduli': LONG_TERM, 'noCompression': OFF, 'noTension': OFF, 'dependencies': 0, 'table': ((78000000000.0, 0.42),), 'type': ISOTROPIC}, 'density': {'temperatureDependency': OFF, 'table': ((19320.0,),), 'dependencies': 0}, 'expansion': {'temperatureDependency': OFF, 'userSubroutine': OFF, 'zero': 0.0, 'dependencies': 0, 'table': ((1.42e-05,),), 'type': ISOTROPIC}, 'plastic': {'temperatureDependency': OFF, 'hardening': ISOTROPIC, 'dataType': HALF_CYCLE, 'strainRangeDependency': OFF, 'rate': OFF, 'dependencies': 0, 'table': ((205000000.0, 0.0),), 'numBackstresses': 1}, 'materialIdentifier': '', 'description': ''}"
+p1095
+sg1093
+S'0.42'
+p1096
+sg1092
+S'7.8e+010N_m2'
+p1097
+stp1098
+tp1099
+.
